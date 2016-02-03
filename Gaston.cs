@@ -62,7 +62,7 @@ namespace GastonIF
         {
             string path = GetResourceFilePath();
             Dictionary<string, dynamic> jsonData = 
-                LoadJson(@"C:\Users\Alex\Documents\visual studio 2015\Projects\GastonIF\GastonIF\Resources\LocationNodeData.json");
+                LoadJson(@"JSON PATH GOES HERE");
 
             return new InteractiveFictionData(jsonData, pStartingLocationName);
         }

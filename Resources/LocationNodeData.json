@@ -1,0 +1,149 @@
+{
+    "LocationNode" : [
+		{
+            "Name": "Stasis Pod",
+            "Description": "It's dark in here.  The dim light is being filtered through what once was, presumably, a clear glass panel.  Now it is cracked and stained a sickly yellow and covered with soot and dirt.",
+            "Hint": "I need to get out of here!",
+            "OpeningParagraphs": [
+                "You are suddenly aware of the presence of darkness.  As your mind grasps for its meaning you become conscious of the fact that you exist within that darkness.  Eventually, with some primordial surge of energy from inside, you force your eyes open.",
+                "Despite the dim lighting, you find it hard not to squint.   It is as though you have been asleep for days.  Your head throbs as you slowly gain control of your limbs.",
+                "You are in a tight space.  There is scarcely enough room for you to get your hand to your nose, which has begun to itch.",
+                "Finally, your eyes having adjusted, you can asses your surroundings..."
+            ],
+            "CarriableItems": [
+            ],
+			"Weapons": [
+			],
+            "LocationSpecificItems": [
+				{
+					"LookText": "The dirty glass panel.",
+					"InspectText":  "The glass is cracked in places and broken in others.  It would not be difficult to break.",
+					"Keywords": [
+						"glass",
+						"panel"
+					],
+					"UniqueCommands": {
+							"break": "The weakened glass is easily broken.  There is just enough space to squeeze through ('exit') without cutting yourself, if you're careful."
+					}
+				}
+			],
+			"ConnectingLocations": {
+					"exit": "Library Basement",
+					"north": null,
+					"south": null,
+					"east": null,
+					"west": null
+			}
+        },
+
+		{
+            "Name": "Library Basement",
+            "Description": "The basement is in disarray.  There are books scattered all over the floor.  Piles of dirt and debris are scattered throughout the room.  A gust of wind rushes through a window to ahead with a shreak and leaves rush dramatically into the air before plummeting back to the floor.",
+            "Hint": "Is there anything useful in here?",
+            "OpeningParagraphs": [
+				"You fall as you pull yourself out of the compartment.  Your legs won't keep your weight.  Looking up at the hole you created in the panel glass, you see now that the compartment was some sort of pod.  A beam from the ceiling has smashed half its side - the reason for the pod's cramped space.",
+				"Your hand finds something as you sit up.  A book.  Scanning the room, you see that they are everywhere, scattered amongst dirt, leaves, and a myriad of other decrepit articles.",
+				"After about an hour, you are able to stand on your own.  Your stomach rumbles fiercely as you scan the basement of what you've decided must be a library..."
+            ],
+            "CarriableItems": [
+				{
+					"LookText": "A leatherbound novel in ill-repair.",
+					"InspectText": "The Travels of Jain Farstrider.",
+					"Keywords": [
+						"book", 
+						"novel"
+					],
+					"UniqueCommands": {
+							"read": "There's no time for that now.",
+					}
+				}
+            ],
+			"Weapons": [
+				{
+					"LookText" : "A shortsword",
+					"InspectText" : "A wicked shortsword.",
+					"Keywords": [
+						"sword",
+						"shortsword",
+						"blade"
+					],
+					"UniqueCommands": {},
+					"Hindrance": 0.15,
+					"AttackSpeed": 2.0,
+					"AttackDamage": 20
+				}
+			],
+            "LocationSpecificItems": [
+			],
+			"ConnectingLocations": {
+					"exit": null,
+					"north": "Western Library",
+					"south": null,
+					"east": null,
+					"west": null
+			}
+        },
+
+		{
+            "Name": "Western Library",
+            "Description": "The sun shines gloriously through the windows.  It is quiet except for the chirping of birds outside.  There is a sense of peace here.  A feeling of tranquility envelopes you as you make you make your way passed towering shelves of books.  Some of the shelves are nearly empty but others are just as you  might expect them to be.",
+            "OpeningParagraphs": [
+                "You have to stop for breath halfway up a staircase.  Your steps force the dust to flee, revealing an elegant ivory marble with pink veins.",
+				"'Where am I?'  You cannot recall ever seeing this place, and yet there is something familiar about it.",
+				"'Have I been here before?'  Your inability to conjure even a single memory of you past distrubs you, and you decide to continue on your search.",
+				"The stairs lead to the main level of the library..."
+            ],
+            "CarriableItems": [
+            ],
+			"Weapons": [
+			],
+            "LocationSpecificItems": [
+
+			],
+			"ConnectingLocations": {
+					"exit": null,
+					"north": null,
+					"south": null,
+					"east": "Eastern Library",
+					"west": null
+			}
+        },
+
+		
+		{
+            "Name": "Eastern Library",
+            "Description": "There is only darkness here.",
+            "OpeningParagraphs": [
+                "As you approach the eastern portion of the library the light seems to be fading.  A glance lets you know that it is because the windows here all have coverings of some material.  The wind can barely make it through, but it still tries, each time the covering slaps back against the wall with a thud.",
+				"Suddenly there are footseps, the sound of feet hitting the ground as someone comes running toward you.  As you turn to get a look your gaze is caught by a child at the other end of the room, peaking from behind a shelf of books.  He is sucking his thumb.",
+				"The child squeaks when he sees that you've noticed him and disappears on the other side of the shelf.  The footsteps have stopped.  You have no time to react before you feel yourself crumple, into darkness once again...",
+				"\n\nTHE END"
+            ],
+            "CarriableItems": [
+            ],
+			"Weapons": [
+			],
+            "LocationSpecificItems": [
+
+			],
+			"ConnectingLocations": {
+					"exit": null,
+					"north": null,
+					"south": null,
+					"east": "Eastern Library",
+					"west": null
+			}
+        },
+
+
+
+    ],
+
+	"PlayerCharacter" : [
+		{
+			"Name" : "I don't remember that.",
+			"Description": "I can't remember much.",
+			"Health": 100
+		}
+	]
+}

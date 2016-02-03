@@ -1,0 +1,10 @@
+C:\Users\Alex\documents\visual studio 2015\Projects\GastonIF\GastonIF\bin\Debug\GastonIF.exe.config
+C:\Users\Alex\documents\visual studio 2015\Projects\GastonIF\GastonIF\bin\Debug\GastonIF.exe
+C:\Users\Alex\documents\visual studio 2015\Projects\GastonIF\GastonIF\bin\Debug\GastonIF.pdb
+C:\Users\Alex\documents\visual studio 2015\Projects\GastonIF\GastonIF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alex\documents\visual studio 2015\Projects\GastonIF\GastonIF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alex\documents\visual studio 2015\Projects\GastonIF\GastonIF\obj\Debug\GastonIF.csprojResolveAssemblyReference.cache
+C:\Users\Alex\documents\visual studio 2015\Projects\GastonIF\GastonIF\obj\Debug\GastonIF.Properties.Resources.resources
+C:\Users\Alex\documents\visual studio 2015\Projects\GastonIF\GastonIF\obj\Debug\GastonIF.csproj.GenerateResource.Cache
+C:\Users\Alex\documents\visual studio 2015\Projects\GastonIF\GastonIF\obj\Debug\GastonIF.exe
+C:\Users\Alex\documents\visual studio 2015\Projects\GastonIF\GastonIF\obj\Debug\GastonIF.pdb
